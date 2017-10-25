@@ -1,0 +1,79 @@
+header{
+  position: fixed;
+  top:0;
+  background-color: white;
+  width: 100%;
+  height: 200px;
+}
+.icon{
+
+}
+nav{
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.logo{
+  display: inline-block;
+  margin-right: 30px;
+  }
+.logo span{
+  font-size: 40px;
+  }
+  .buscar{
+    display: inline-block;
+  }
+  .leet{
+    padding: 10px 20px;
+    width: 900px;
+    border: none;
+    border-radius: 4px;
+    background-color: blue;
+    font-size: 23px;
+  }
+.old{
+  display: inline-block;
+}
+.old span{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.tree{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.clip{
+  display: inline-block;
+  background: url(../assets/images/work-4.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+ padding: 23px;
+ margin-right: 10px;
+ margin-left: 10px;
+}
+a{
+  text-decoration: none;
+}
+.clip a{
+  color:green;/*font famili*/
+}
+section{
+  margin: 200px auto;
+  width: 90%;
+}
+figure{
+  margin: 0;
+
+}
+.art{
+  width: 20%;
+  display: inline-block;
+  margin-right:  30px;
+/*h1,h21,h3,h4,span.bolita*/
+}
+.art img{
+  border-radius: 10px;
+  width:100% ;
+
+}
