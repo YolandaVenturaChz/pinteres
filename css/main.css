@@ -1,79 +1,187 @@
-header{
-  position: fixed;
-  top:0;
-  background-color: white;
-  width: 100%;
-  height: 200px;
+* * p,h1,h2,h3,h4,h5,h6,body,figure{
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
 }
-.icon{
 
+
+body {
+  display: block;
 }
-nav{
-  padding: 20px;
-  border-bottom: 1px solid black;
+header {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  height: 145px;
 }
-.logo{
-  display: inline-block;
-  margin-right: 30px;
-  }
-.logo span{
-  font-size: 40px;
-  }
-  .buscar{
-    display: inline-block;
-  }
-  .leet{
-    padding: 10px 20px;
-    width: 900px;
-    border: none;
-    border-radius: 4px;
-    background-color: blue;
-    font-size: 23px;
-  }
-.old{
+.buscar {
+  padding: 10px 0;
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid #bfb8b7;
   display: inline-block;
 }
-.old span{
-  margin-left: 10px;
-  margin-right: 10px;
+.buscar li {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 6px;
+  display: inline-block;
 }
-.tree{
-  list-style: none;
-  padding: 0;
+.icon-close {
+  float: left;
+  margin-left: 265px;
+}
+.buscar, .menu {
   text-align: center;
 }
-.clip{
-  display: inline-block;
-  background: url(../assets/images/work-4.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+.buscar .box {
+  background-color: #ede7ea;
   border-radius: 5px;
- padding: 23px;
- margin-right: 10px;
- margin-left: 10px;
+  margin: 0 16px;
+  width: 70%;
+  padding: 10px;
+  display: inline-flex;
 }
-a{
-  text-decoration: none;
-}
-.clip a{
-  color:green;/*font famili*/
-}
-section{
-  margin: 200px auto;
-  width: 90%;
-}
-figure{
-  margin: 0;
-
-}
-.art{
-  width: 20%;
+.buscar .box .search {
+  width: 85%;
   display: inline-block;
-  margin-right:  30px;
-/*h1,h21,h3,h4,span.bolita*/
 }
-.art img{
-  border-radius: 10px;
-  width:100% ;
+.buscar .box .search .glass {
+  font-size: 14px;
+  transform: scale(1.2);
+  position: relative;
+  right: 269px;
+  float: left;
+  margin-left: 282px;
+}
+input {
+  width: 90%;
+  border: 0;
+  background-color: #ede7ea;
+  position: relative;
+  font-stretch: extra-expanded;
+}
+.buscar .box .all {
+  display: inline-block;
+}
+.buscar .icons {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  transform: scale(1.5);
+  margin: 0 5px;
+  line-height: 32px;
+  color: #ede7ea;
+}
+.menu {
+  padding: 10px 0;
+  width: 100%;
+  margin: 0;
+  display: inline-block;
+}
+.menu .option1  {
+  background-color: rgba(125, 89, 34, 0.72);
+}
+
+.menu .option2 p {
+  background-color: rgba(66, 47, 10, 0.72);
+}
+
+.menu .option3 p {
+  background-color: rgba(14, 15, 29, 0.72);
+}
+
+.menu .option4 p {
+  background-color: rgba(10, 12, 32, 0.72);
+}
+
+.menu .option5 p {
+  background-color: rgba(68, 41, 14, 0.72);
+}
+
+.menu .option6 p {
+  background-color: rgba(16, 19, 90, 0.93);
+}
+
+.menu .option7 p {
+  background-color: rgba(112, 61, 29, 0.72);
+}
+
+.menu .option8 p {
+  background-color: rgba(219, 118, 30, 0.81);
+}
+
+.menu .option9 p {
+  background-color: rgba(132, 135, 194, 0.68);
+}
+
+.menu .boxes {
+  margin: 0 5px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 6px;
+}
+.menu .boxes p {
+  padding: 25px 18px;
+  border-radius: 6px;
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+}
+/*imagenes              imagenes         imagenes*/
+section{
+  padding: 0 90px;
+  margin-top: 143px;
+  column-count: 4;
+  display: inline-block;
+  width: 88%;
+  cursor: pointer;
 
 }
+
+.art{
+  display: inline-block;
+
+}
+
+.art img{
+  border-radius: 30px;
+  width:100% ;
+  margin-top: 30px;
+}
+.information h4{
+  margin-top: 20px;
+}
+ .circle .letter {
+  background-color: palevioletred;
+  border-radius: 50%;
+  width: 30px;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  margin-top: 14px;
+
+}
+.art h6{
+  float: left;
+  margin-top: 24px;
+  font-size: 15px;
+}
+.art p{
+  float: left;
+  font-size: 15px;
+  margin-right: 64px
+}
+.art .data {
+  margin-left: 167px;
+  margin-top: -30px;
+  font-size: 10px;
+  color: #717a71;
+ }
+/*  codigo   yolanda codigo  yolanda*/
+
